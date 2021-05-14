@@ -44,6 +44,11 @@
     position: relative;
 }
 
+.logout {
+    position: relative;
+    left: 80px;
+}
+
 /* ==== PRODUCT INFO PAGE ==== */
 
 /* PRODUCT INFO IMAGE */
