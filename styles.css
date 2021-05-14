@@ -2,6 +2,17 @@
     width: 100%;
 }
 
+/* ==== MAIN PAGE ==== */
+.center {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.main_text {
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
 /* ==== VIEW SENSORS PAGE ==== */
 
 #green_circle {
@@ -44,9 +55,16 @@
     position: relative;
 }
 
+<<<<<<< HEAD
 .logout {
     position: relative;
     left: 80px;
+=======
+.legend {
+    display: flex;
+    justify-content: space-around;
+
+>>>>>>> 1b8a387902d355132b19d3deabdd974842b8e367
 }
 
 /* ==== PRODUCT INFO PAGE ==== */
@@ -74,9 +92,11 @@
   /* ==== BACK BUTTON ==== */
 
   a {
-    position: relative;
-    left: 30px;
-    top: -180px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
     text-decoration: none;
     display: inline-block;
     padding: 15px 23px;
