@@ -55,12 +55,6 @@
     position: relative;
 }
 
-<<<<<<< HEAD
-.legend {
-    display: flex;
-    justify-content: space-around;
-
-=======
 .logout {
     position: absolute;
     top: 0px;
@@ -70,8 +64,34 @@
     text-decoration: none;
     display: inline-block;
     padding: 15px 23px;
->>>>>>> 6bd55b2d31ad7cc0dc3bb4d38278d11267ca7855
 }
+
+.legend {
+    display: grid;
+    grid-gap: 50px 100px;
+    grid-template-columns: repeat(3, 75px);
+    grid-template-rows: 50px 50px 50px;
+    justify-content: center;
+}
+
+.box {
+    height: 20px;
+    width: 20px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
 
 /* ==== PRODUCT INFO PAGE ==== */
 
