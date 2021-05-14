@@ -187,3 +187,18 @@
   .round {
     border-radius: 50%;
   }
+
+  /* ==== Login ==== */
+  input {
+    text-align: center;
+  }
+
+  .remember {
+    position: relative;
+    top: 18px;
+  }
+
+  .psw {
+    position: relative;
+    top: 12px;
+  }
