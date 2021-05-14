@@ -55,6 +55,12 @@
     position: relative;
 }
 
+<<<<<<< HEAD
+.legend {
+    display: flex;
+    justify-content: space-around;
+
+=======
 .logout {
     position: absolute;
     top: 0px;
@@ -64,6 +70,7 @@
     text-decoration: none;
     display: inline-block;
     padding: 15px 23px;
+>>>>>>> 6bd55b2d31ad7cc0dc3bb4d38278d11267ca7855
 }
 
 /* ==== PRODUCT INFO PAGE ==== */
