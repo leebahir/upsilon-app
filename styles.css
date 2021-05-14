@@ -55,14 +55,11 @@
     position: relative;
 }
 
-<<<<<<< HEAD
-=======
 .legend {
     display: flex;
     justify-content: space-around;
 }
 
->>>>>>> adebc8b733284a07b61c79d6d549192e7e631ddc
 .logout {
     position: absolute;
     top: 0px;
