@@ -13,12 +13,6 @@
     margin-right: 350px;
 }
 
-.top-buffer { 
-    margin-top: 20px;
-    display: flex;
-    justify-content: center; 
-}
-
 /* ==== VIEW SENSORS PAGE ==== */
 
 #green_circle {
@@ -98,10 +92,25 @@
   
   .green {
     background-color: green;
+    position: relative;
+    left: 9px;
   }
   
   .yellow {
     background-color: yellow;
+    position: relative;
+    left: -10px;
+  }
+
+  .legend_boxes {
+    display: grid;
+    grid-gap: 50px 175px;
+    grid-template-columns: repeat(3, 75px);
+    grid-template-rows: 50px 50px 50px;
+    position: relative;
+    left: 80px;
+    top: -245px;
+    justify-content: center;
   }
 
 /* ==== PRODUCT INFO PAGE ==== */
