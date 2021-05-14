@@ -33,8 +33,7 @@
     grid-gap: 50px 100px;
     grid-template-columns: repeat(6, 75px);
     grid-template-rows: 50px 50px 50px;
-    object-position: 50%;
-    position: relative;
+    justify-content: center;
 }
 
 /* ==== PRODUCT INFO PAGE ==== */
