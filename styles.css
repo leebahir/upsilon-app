@@ -2,6 +2,8 @@
     width: 100%;
 }
 
+/* ==== VIEW SENSORS PAGE ==== */
+
 #green_circle {
     background: black;
     border-radius: 50%;
@@ -19,4 +21,51 @@
     padding-left: 160px;
     position: absolute;
 }
+
+/* ==== PRODUCT INFO PAGE ==== */
+
+/* PRODUCT INFO IMAGE */
+.project_image {
+    display: grid;
+    grid-gap: 4.0rem;
+    padding-top: 10px;
+    padding-left: 100px;
+  }
+  
+  /* PRODUCT INFO TEXT */
+  .text_container {
+    width:600px;
+    margin-left: 40px;
+  }
+  
+  .image_text_container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  /* ==== BACK BUTTON ==== */
+
+  a {
+    position: relative;
+    left: 30px;
+    top: -180px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 23px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+
+  .round {
+    border-radius: 50%;
+  }
 
