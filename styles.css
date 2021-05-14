@@ -2,6 +2,17 @@
     width: 100%;
 }
 
+/* ==== MAIN PAGE ==== */
+.center {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.main_text {
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
 /* ==== VIEW SENSORS PAGE ==== */
 
 #green_circle {
