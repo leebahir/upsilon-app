@@ -36,6 +36,14 @@
     justify-content: center;
 }
 
+.line {
+    border: none;
+    height: 4px;
+    background: black;
+    width: 880px;
+    position: relative;
+}
+
 /* ==== PRODUCT INFO PAGE ==== */
 
 /* PRODUCT INFO IMAGE */
