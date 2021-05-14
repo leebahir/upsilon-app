@@ -55,16 +55,10 @@
     position: relative;
 }
 
-<<<<<<< HEAD
-.logout {
-    position: relative;
-    left: 80px;
-=======
 .legend {
     display: flex;
     justify-content: space-around;
 
->>>>>>> 1b8a387902d355132b19d3deabdd974842b8e367
 }
 
 /* ==== PRODUCT INFO PAGE ==== */
