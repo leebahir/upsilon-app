@@ -141,6 +141,26 @@
     margin-bottom: 40px;
   }
 
+  /* ==== MISSION PAGE ==== */
+  .mission_text {
+    width: 650px;
+    padding-left: 200px;
+  }
+
+  .links {
+    position: absolute;
+    top: 175px;
+    right: 400px;
+
+  }
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    justify-content: space-between;
+}
+
   /* ==== BACK BUTTON ==== */
 
   .back a {
