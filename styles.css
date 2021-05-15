@@ -115,7 +115,7 @@
     grid-template-rows: 50px 50px 50px;
     position: relative;
     left: 80px;
-    top: -245px;
+    top: -246px;
     justify-content: center;
   }
 
@@ -140,6 +140,26 @@
     justify-content: center;
     margin-bottom: 40px;
   }
+
+  /* ==== MISSION PAGE ==== */
+  .mission_text {
+    width: 650px;
+    padding-left: 200px;
+  }
+
+  .links {
+    position: absolute;
+    top: 175px;
+    right: 400px;
+
+  }
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    justify-content: space-between;
+}
 
   /* ==== BACK BUTTON ==== */
 
@@ -166,4 +186,19 @@
 
   .round {
     border-radius: 50%;
+  }
+
+  /* ==== Login ==== */
+  input {
+    text-align: center;
+  }
+
+  .remember {
+    position: relative;
+    top: 18px;
+  }
+
+  .psw {
+    position: relative;
+    top: 12px;
   }
