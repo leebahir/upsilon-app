@@ -30,66 +30,114 @@
 
     <!-- Images and Text -->
     <div class="image_text_container">
-      <img
+      <div style="padding-top:40px">
+        <img
+            src="assests/Engineering Project.jpeg"
+            width="450px"
+            height="350px"
+            Padding: 10px;
+            alt="Product
+        Picture 1"
+        />
+      </div>
+      <div class="text_container">
+        <h3>Our Product</h3>
+        <p>
+            Overseeing soil moisture levels accurately through irrigation systems 
+            is essential to increasing crop yield and preserving water. By accounting 
+            for soil moisture variability, farmers will be able to manage their irrigation 
+            systems better to utilize the necessary amount of water at the right time. 
+            By precisely scheduling the irrigation systems, our product can help avoid under or over watering. 
+            In order to do so, our product utilizes capacitance-based soil moisture sensors. 
+        </p>
+        <p style="padding-top:10px">
+            Our product proposes an innovative approach to conserve water by carefully measuring 
+            the amount of moisture in the soil, and activating precisely timed solenoid valves to keep the 
+            soil at its optimal moisture levels for the given corn crop to produce the max yield. In our prototype, 
+            we are proposing a solution for a farmer who grows corn crops, and this technology will decrease water utilization, 
+            and at the same time, it would help increase crop yield. Our product will also take into account the variability 
+            of water consumption based on the soil type, crop type, weather conditions, and stage of growth of the crop 
+            because these are all important influencing factors that contribute to the quality of corn production.
+            
+        </p>
+      </div>
+    </div>
+    <div class="image_text_container">
+      <div class="components">
+        <table width="500" border="0">
+            <tr>
+              <th scope="row"><center><img src="assests/dripirrigation.jpeg" alt="Drip Irrigation" height="150px" width="200px"/></center></th>
+            </tr>
+            <tr>
+              <th scope="row"><center><img src="assests/capacitativesensors.png" alt="Moisture Sensor" height="150px" width="200px"/></center></th>
+            </tr>
+            <tr>
+              <th scope="row"><center><img src="assests/solenoid.jpeg" alt="Solenoid Valve" height="150px" width="200px"/></center></th>
+            </tr>
+            <tr>
+                <th scope="row"><center><img src="assests/arduino.png" alt="Arduino Mega" height="150px" width="200px"/></center></th>
+            </tr>
+            <tr>
+                <th scope="row"><center><img src="assests/enclosure.png" alt="Enclosure" height="150px" width="200px"/></center></th>
+            </tr>
+        </table>
+      </div>
+      <div class="text_container">
+        <h3>Components</h3>
+        <p>
+            Pre-existing Drip Irrigation System: A drip irrigation system includes drip lines in rows of 300 - 600 feet. 
+            Drip lines are often spaced 12 - 18 inches from each other. The emitters, spaced 6 - 12 inches, in the drip 
+            lines are where the water exits out into the field. In the case of our prototype, we are modeling our product 
+            based on a system that has drip lines spaced 12 inches apart, and emitters spaced 12 inches apart as well. 
+        </p>
+        <p style="padding-top:10px">
+            Capacitive Moisture Sensors: The 16 sensors have a detection radius of 4.1 cm, and they are able to work by sensing 
+            the change in capacitance due to moisture in the soil. This sensor is more durable than traditional resistive moisture 
+            sensors because it is less prone to corrosion.
+        </p>
+        <p style="padding-top:10px">
+            Solenoid Valves: The 4 plastic water solenoid valves have an operational voltage of 12V, but they can stretch to 
+            running on as low as 6V. This makes them good to use on spaced-out fields. They have two ½” nominal non-taped national 
+            pipe outlets.
+        </p>
+        <p style="padding-top:10px">
+            Arduino Mega: This microcontroller receives data from the moisture sensors in the field, and it then determines 
+            if the soil is wet/dry based off of the data. If the sensors read dry, the Arduino will signal the solenoid valves 
+            to turn water on to the corresponding drip lines. Because this microcontroller has 16 analog pins, we are utilizing 
+            each one so that we have a total of 16 capacitive moisture sensors being controlled by it. 
+        </p>
+        <p style="padding-top:10px">
+            Enclosure: This serves as a housing for the Arduino Mega, and it is made out of sheet metal. It has vents to allow 
+            for aeration and to prevent condensation from collecting inside the enclosure. It also has countersink emboss for mounting.
+        </p>
+        <p style="padding-top:10px">
+            Growth Phase Cycle Software: Our product comes with a web application in which farmers can update which cycle of 
+            growth their crop is in. The hardware will adjust how sensitive the system should be to moisture to give the correct 
+            amount of water for that phase.
+        </p> 
+      </div>
+    </div>
+    <div class="image_text_container">
+        <img
         src="assests/AutomatedDripIrrigation2.png"
-        width="350px"
+        width="450px"
         style="border-radius: 5px"
         alt="Product
       Picture 1"
       />
       <div class="text_container">
-        <h3>Our Product</h3>
+        <h3>Why Us?</h3>
         <p>
-          The product we created is called the Drip Master. The target audience
-          for our product are farmers with large plots of land, specifically
-          corn. Our product uses soil moisture sensors to accurately measure the
-          water content in the soil and automatically uses this data to dispense
-          the necessary amount of water through the drip irrigation system. This
-          allows for a more precise watering system that eliminates the worry of
-          overwatering as well as the worry of gardening, so you can sit back
-          and let our system do the gardening for you.
-        </p>
-      </div>
-    </div>
-    <div class="image_text_container">
-      <img src="https://via.placeholder.com/350x350" alt="Product Picture 1" />
-      <div class="text_container">
-        <h3>Lorem Ipsum</h3>
-        <p>
-          dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-          mollit anim id est laborum. dolor sit amet, consectetur adipiscing
-          elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-          in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </div>
-    </div>
-    <div class="image_text_container">
-      <img src="https://via.placeholder.com/350x350" alt="Product Picture 1" />
-      <div class="text_container">
-        <h3>Lorem Ipsum</h3>
-        <p>
-          dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-          mollit anim id est laborum. dolor sit amet, consectetur adipiscing
-          elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-          in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+            Our team aspires to create a precise automation mechanism for drip irrigation systems 
+            in order to conserve freshwater and increase corn crop yields, thus we work diligently 
+            to bring this dream into fruition. We also prioritize a user-friendly interface, because 
+            we know that it is intimidating to have to sift through a handful of numeral readings from 
+            the moisture sensors and try to make sense of it. This is why our team has poured a lot of 
+            effort into creating a web application that makes access to your field data easy to read. 
+            We also trust our farmers working diligently in the fields every day, and understand that 
+            no one knows the ins and outs of corn better than they do. This is why we are putting the 
+            controls in their hands for deciding what growth stage their corn crops are in, and they will 
+            have easy access to updating that information on the web application. 
         </p>
       </div>
     </div>
