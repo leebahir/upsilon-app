@@ -1,23 +1,60 @@
+body{
+  /* background-image:linear-gradient(to bottom right,white, rgba(227, 247, 136, 0.699), white)!important; */
+  background:rgb(255, 255, 233)!important;
+}
+
 .content {
   width: 100%;
 }
 
 /* ==== MAIN PAGE ==== */
+.home-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .center {
-  padding-top: 80px;
   text-align: center;
 }
 
 .main_text {
-  margin-left: 350px;
-  margin-right: 350px;
-  padding-bottom: 10px;
+  width: 60%;
 }
 
 .top-buffer {
   margin-top: 20px;
   display: flex;
   justify-content: center;
+}
+
+.home-image {
+  background-image: url('assests/corn-field.jpg');
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-button{
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+.b1{
+  background: #437c0e!important;
+}
+.b2{
+  background: #6a850b!important;
+}
+.b3{
+  background: #83850b!important;
+}
+.b4{
+  background: #8e9106!important;
 }
 
 /* ==== VIEW SENSORS PAGE ==== */
@@ -176,10 +213,11 @@
   text-decoration: none;
   display: inline-block;
   padding: 15px 23px;
+  background-color: rgb(252, 237, 196)!important;
 }
 
 .back a:hover {
-  background-color: #ddd;
+  background-color: rgb(247, 226, 169)!important;
   color: black;
 }
 
@@ -205,4 +243,8 @@ input {
 .psw {
   position: relative;
   top: 12px;
+}
+
+.login-btn{
+  border-radius: 5px;
 }
