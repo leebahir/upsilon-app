@@ -56,6 +56,9 @@ body{
 .b4{
   background: #8e9106!important;
 }
+.b5{
+  background: #9e940a!important;
+}
 
 /* ==== VIEW SENSORS PAGE ==== */
 
@@ -185,21 +188,29 @@ body{
 
 /* ==== MISSION PAGE ==== */
 .mission_text {
-  width: 650px;
-  padding-left: 200px;
+  width: 50%;
+  /* padding-left: 200px; */
 }
 
 .links {
-  position: absolute;
-  top: 175px;
-  right: 400px;
+  /* position: absolute; */
+  /* top: 175px; */
+  padding-left: 100px;
+  /* right: 400px; */
 }
 
 .buttons {
   display: flex;
   flex-direction: column;
   row-gap: 15px;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.mission-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 100px;
 }
 
 /* ==== BACK BUTTON ==== */
